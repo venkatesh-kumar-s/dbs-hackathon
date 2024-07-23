@@ -29,6 +29,7 @@ const CreditCardDetails = () => {
               (data.Issuer === "diners_club" && dinersClub) ||
               (data.Issuer === "maestro" && maestro)
             }
+            alt=""
           />
           <p
             style={{
@@ -75,6 +76,7 @@ const CreditCardDetails = () => {
               (data.Issuer === "diners_club" && dinersClub) ||
               (data.Issuer === "maestro" && maestro)
             }
+            alt=""
           />
         </div>
     </div>

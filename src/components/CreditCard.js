@@ -30,6 +30,7 @@ export const CreditCard = ({ data }) => {
               (data.Issuer === "diners_club" && dinersClub) ||
               (data.Issuer === "maestro" && maestro)
             }
+            alt=""
           />
           <p
             style={{
@@ -72,6 +73,7 @@ export const CreditCard = ({ data }) => {
               (data.Issuer === "diners_club" && dinersClub) ||
               (data.Issuer === "maestro" && maestro)
             }
+            alt=""
           />
         </div>
       </div>
